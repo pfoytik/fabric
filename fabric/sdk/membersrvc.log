@@ -1,0 +1,1 @@
+[31m20:34:08.046 [server] main -> ERRO 001[0m Fail to start CA Server: listen tcp :7054: bind: address already in use

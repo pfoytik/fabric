@@ -1,0 +1,21 @@
+20:34:30.130 [nodeCmd] serve -> INFO 002[0m Security enabled status: false
+20:34:30.130 [nodeCmd] serve -> INFO 003[0m Privacy enabled status: false
+20:34:30.128 [eventhub_producer] start -> INFO 001[0m event processor started
+20:34:30.132 [db] open -> INFO 004[0m Setting rocksdb maxLogFileSize to 10485760
+20:34:30.135 [db] open -> INFO 005[0m Setting rocksdb keepLogFileNum to 10
+20:34:30.189 [chaincode] NewChaincodeSupport -> INFO 006[0m Chaincode support using peerAddress: 0.0.0.0:7051
+20:34:30.192 [sysccapi] RegisterSysCC -> INFO 007[0m system chaincode (noop,github.com/hyperledger/fabric/bddtests/syschaincode/noop) disabled
+20:34:30.201 [state] loadConfig -> INFO 008[0m Loading configurations...
+20:34:30.204 [state] loadConfig -> INFO 009[0m Configurations loaded. stateImplName=[buckettree], stateImplConfigs=map[bucketCacheSize:100 numBuckets:1000003 maxGroupingAtEachLevel:5], deltaHistorySize=[500]
+20:34:30.204 [state] NewState -> INFO 00a[0m Initializing state implementation [buckettree]
+20:34:30.205 [buckettree] initConfig -> INFO 00b[0m configs passed during initialization = map[string]interface {}{"maxGroupingAtEachLevel":5, "bucketCacheSize":100, "numBuckets":1000003}
+20:34:30.205 [buckettree] initConfig -> INFO 00c[0m Initializing bucket tree state implemetation with configurations &{maxGroupingAtEachLevel:5 lowestLevel:9 levelToNumBucketsMap:map[3:65 1:3 6:8001 5:1601 8:200001 4:321 0:1 9:1000003 2:13 7:40001] hashFunc:0xab12e0}
+20:34:30.206 [buckettree] newBucketCache -> INFO 00d[0m Constructing bucket-cache with max bucket cache size = [100] MBs
+20:34:30.207 [buckettree] loadAllBucketNodesFromDB -> INFO 00e[0m Loaded buckets data in cache. Total buckets in DB = [0]. Total cache size:=0
+20:34:30.211 [consensus/controller] NewConsenter -> INFO 00f[0m Creating default consensus plugin (noops)
+20:34:30.243 [consensus/noops] newNoops -> INFO 010[0m NOOPS consensus type = *noops.Noops
+20:34:30.244 [consensus/noops] newNoops -> INFO 011[0m NOOPS block size = 500
+20:34:30.244 [consensus/noops] newNoops -> INFO 012[0m NOOPS block wait = 1s
+20:34:30.245 [nodeCmd] serve -> INFO 013[0m Starting peer with ID=name:"jdoe" , network ID=dev, address=0.0.0.0:7051, rootnodes=, validator=true
+20:34:30.250 [consensus/statetransfer] blockThread -> INFO 014[0m Validated blockchain to the genesis block
+20:34:30.252 [rest] StartOpenchainRESTServer -> INFO 015[0m Initializing the REST service on 0.0.0.0:7050, TLS is disabled.

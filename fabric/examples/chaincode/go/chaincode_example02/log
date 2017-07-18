@@ -1,0 +1,6 @@
+20:35:43.424 [shim] DEBU : Peer address: 0.0.0.0:7051
+20:35:43.480 [shim] DEBU : os.Args returns: [./chaincode_example02]
+20:35:43.492 [shim] DEBU : Registering.. sending REGISTER
+20:35:43.562 [shim] DEBU : []Received message REGISTERED from shim
+20:35:43.567 [shim] DEBU : []Handling ChaincodeMessage of type: REGISTERED(state:created)
+20:35:43.567 [shim] DEBU : Received REGISTERED, ready for invocations

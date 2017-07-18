@@ -1,0 +1,1 @@
+2017/07/06 20:27:07 grpc: Server.Serve failed to create ServerTransport:  connection error: desc = "transport: write tcp 127.0.0.1:7054->127.0.0.1:58157: write: broken pipe"
